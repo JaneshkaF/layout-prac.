@@ -3,10 +3,16 @@ body {
 }
 #sectionA {
 	background: blue;
+	flex: auto;
 }
 #sectionB {
 	background: red;
+	flex: auto;
 }
 #sectionC {
 	background: green;
+	flex: auto;
+}
+#divide {
+	display: flex;
 }

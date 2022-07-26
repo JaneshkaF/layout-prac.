@@ -1,3 +1,16 @@
-#wrapper{background: grey;}
-#sidebar{background: blue;}
-#content{background: yellow;}
+#wrapper {
+	background: grey;
+}
+#sidebar {
+	background: gray;
+	float: left;
+	flex: auto;
+}
+#content {
+	background: green;
+	float: right;
+	flex: auto;
+}
+div {
+	display: flex;
+}
