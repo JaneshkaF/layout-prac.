@@ -12,16 +12,6 @@
 	position: absolute;
 }
 
-.calendar em {
-	display: block;
-	font-size: 15px;
-	color: #fff;
-	background: #04599a;
-	border-bottom-right-radius: 3px;
-	border-bottom-left-radius: 3px;
-	position: absolute;
-}
-
 .calendar::before {
 	content: "";
 	float: left;
@@ -55,22 +45,26 @@
 .calendar em:before {
 	content: "";
 	float: left;
-	margin: 10px;
+	margin: 0px;
 	width: 4px;
 	height: 14px;
-	background: green;
+	background: gray;
 	z-index: 2;
 	position: absolute;
 	right: 13px;
+	margin-top: -12px;
+	min-height: 16px;
 }
-.calendar em:before {
+.calendar em::after {
 	content: "";
 	float: right;
-	margin: 10px;
+	margin: 0px;
 	width: 4px;
 	height: 14px;
-	background: green;
+	background: gray;
 	z-index: 2;
 	position: absolute;
 	left: 13px;
+	margin-top: -12px;
+	min-height: 16px;
 }
