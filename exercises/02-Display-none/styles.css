@@ -1,4 +1,9 @@
 /* your code here */
-.h2 {display:none;
-
+.h2 {
+	display: none;
+}
+.not-visible {
+	visibility: hidden;
+}
+#myUL {
 }
